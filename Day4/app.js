@@ -1,7 +1,7 @@
 console.log("FUNCTIONS ...... (•_•)");
 
 function forName(inName) {
-    console.log("your " + inName +" is nice");
+    console.log(`this is the name : ${inName}` );
     return null;  
 }
 
