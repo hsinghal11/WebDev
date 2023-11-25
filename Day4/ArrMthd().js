@@ -35,10 +35,39 @@ let sampleArr=[];
 for(let i=0;i<10;i++){
     sampleArr[i]=String.fromCharCode(i+65);
 }
+console.log(" ");
+
+console.log("SLICE\n");
+
 console.log(sampleArr);
 console.log(sampleArr.slice(2,7));//2nd index included and 7th index not included
 console.log(sampleArr.slice(4,));
 console.log(sampleArr.slice(0,8));
+console.log("\n");
+
+console.log("SPLICE....\n\n");
+
+
+console.log(sampleArr);
+console.log(sampleArr.splice(2,2,3,11));
+console.log(sampleArr);
+let sampleArr1=sampleArr.splice(4,2);
+console.log(sampleArr1);
+console.log(sampleArr);
+let sampleArr2=sampleArr.splice(2,2,10);
+console.log(sampleArr2);
+console.log(sampleArr);
+let sampleArr3=sampleArr.splice(2,2);
+console.log(sampleArr3);
+console.log(sampleArr);
+let sampleArr4=sampleArr.splice(3,2,"h","j","k","l");
+console.log(sampleArr4);
+console.log(sampleArr);
+let sampleArr5=sampleArr.splice(3,0,"i")
+console.log(sampleArr);
+
+
+
 
 
 
